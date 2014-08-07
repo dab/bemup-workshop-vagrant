@@ -4,7 +4,7 @@ Provisions a clean Ubuntu 12.04 32-bit server instance with all needed Node.js d
 
 ## Install Vagrant & VirtualBox
 
-### Install Vagrant 1.5:
+### Install Vagrant:
 [http://vagrantup.com](http://vagrantup.com)
 
 ### Install VirtualBox:

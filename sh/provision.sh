@@ -21,23 +21,11 @@ hostname nodejs-vagrant
 # Install Node.js
 /vagrant/sh/nodejs.sh
 
-# Install MongoDB
-#/vagrant/sh/mongodb.sh
-
-# Install Redis
-#/vagrant/sh/redis.sh
-
 # GitHub repositories:
 /vagrant/sh/github.sh
 
-# Travis-CI toolbelt:
-#/vagrant/sh/travis.sh
-
-# Heroku toolbelt (NOTE: after Travis-CI due to Ruby removal/reinstall):
-#/vagrant/sh/heroku.sh
-
 # Vim settings:
-#/vagrant/sh/vim.sh
+/vagrant/sh/vim.sh
 
 touch /etc/vagrant-provisioned
 
