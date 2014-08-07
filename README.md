@@ -53,6 +53,5 @@ git config --global user.name '<your name>'
 git config --global user.email <your email>
 ```
 
-## License
-
-[MIT](https://github.com/cbumgard/nodejs-vagrant/blob/master/LICENSE)
+## License 
+MIT
