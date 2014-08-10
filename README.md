@@ -1,4 +1,6 @@
-# nodejs-vagrant
+# bemup-workshop-vagrant
+
+[на русском](https://github.com/dab/bemup-workshop-vagrant/blob/master/README.ru.md)
 
 Provisions a clean Ubuntu 12.04 32-bit server instance with all needed Node.js development tools (Node.js, git, vim);
 
