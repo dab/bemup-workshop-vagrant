@@ -9,11 +9,11 @@ else
 fi
 
 # Change the hostname so we can easily identify what environment we're on:
-echo "nodejs-vagrant" > /etc/hostname
+echo "bemup-vagrant" > /etc/hostname
 # Update /etc/hosts to match new hostname to avoid "Unable to resolve hostname" issue:
-echo "127.0.0.1 nodejs-vagrant" >> /etc/hosts
+echo "127.0.0.1 bemup-vagrant" >> /etc/hosts
 # Use hostname command so that the new hostname takes effect immediately without a restart:
-hostname nodejs-vagrant
+hostname bemup-vagrant
 
 # Install core components
 /vagrant/sh/core.sh
@@ -26,6 +26,9 @@ hostname nodejs-vagrant
 
 # Vim settings:
 /vagrant/sh/vim.sh
+
+# Vim settings:
+/vagrant/sh/path.sh
 
 touch /etc/vagrant-provisioned
 

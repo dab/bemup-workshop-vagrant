@@ -13,8 +13,8 @@ Provisions a clean Ubuntu 12.04 32-bit server instance with all needed Node.js d
 ## Setup
 
 ```
-git clone git@github.com:dab/nodejs-vagrant.git
-cd nodejs-vagrant
+git clone git@github.com:dab/bemup-workshop-vagrant.git
+cd bemup-workshop-vagrant
 vagrant up
 vagrant ssh
 ```
@@ -37,12 +37,11 @@ Configured for private network on static IP: ```192.168.33.10```, with port ```:
 
 So from a web browser you have two ways of accessing a node.js process for example running on port 3000 on the VM:
 
-* ```localhost:3000```
 * ```192.168.33.10:3000```
 
 Additionally for convenience, append this line to your ```/etc/hosts``` file:
 
-```192.168.33.10   vagrant.localhost```
+```192.168.33.10   bemup-vagrant.localhost```
 
 ### GitHub
 
