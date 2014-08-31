@@ -10,6 +10,15 @@
 ### VirtualBox:
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
+## Пользователям Windows
+Для соединения с виртуальной машиной по `ssh` вам потребуется установить ssh-клиент, например [putty](http://www.putty.org/).
+В Windows XP при запуске команды `vagrant up` может возникнуть ошибка `The box failed to unpackage properly`. Решение: скачать [basic_bsdtar.exe](http://sourceforge.net/projects/mingw/files/MinGW/Extension/bsdtar/), переименовать в bsdtar.exe и сохранить в `C:\HashiCorp\Vagrant\embedded\gnuwin32\bin\`.
+
+Для установки `git`, скачайте и установите [git bash](http://msysgit.github.io).
+
+В Windows также возможна некорректная работа `npm i` в папке виртуальной машины `/host/`, если она синхронизирована с домашней директорией Windows. Решение: вести разработку в другой папке виртуальной машины, например `/home/vagrant/projects/`
+
+
 ## Установка
 
 ```

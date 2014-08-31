@@ -12,6 +12,16 @@ Provisions a clean Ubuntu 12.04 32-bit server instance with all needed Node.js d
 ### Install VirtualBox:
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
+## For Windows users
+Windows has no built-in ssh client. You should install and use 3rd party one. For instance [git bash](http://msysgit.github.io).
+
+Here is the fix for error `The box failed to unpackage properly`:
+download the `basic_bsdtar.exe` from here [bsdtar](http://sourceforge.net/projects/mingw/files/MinGW/Extension/bsdtar/) then rename it to `bsdtar.exe` and place it in C:\HashiCorp\Vagrant\embedded\gnuwin32\bin\.
+
+You can find git client for Windows here: [git for win](http://git-scm.com/download/win).
+
+It may happen that `npm i` command will not work in `/host/` directory of virtual machine if `/host/` dir is synced with Windows home directory. The solution is to work in another directory, for example in `/home/vagrant/projects/`, which is not synced.
+
 ## Setup
 
 ```
